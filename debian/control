@@ -1,0 +1,12 @@
+Source: pg-ft-czech
+Section: unknown
+Priority: extra
+Maintainer: Martin Povolny <martin.povolny@solnet.cz>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: pg-ft-czech
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
