@@ -1,3 +1,7 @@
-czech stoplist, affixes etc. for full-text search in postgresql  
+czech stoplist, affixes etc. for full-text search in postgresql
 
 packaged so that I can apt-get install the package and don't have to copy the files
+
+CREATE TEXT SEARCH DICTIONARY cspell (template=ispell, dictfile = czech, afffile=czech, stopwords=czech);
+CREATE TEXT SEARCH CONFIGURATION cs (copy=english);
+ALTER TEXT SEARCH CONFIGURATION cs;
